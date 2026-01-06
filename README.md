@@ -1,4 +1,4 @@
-# Effective Mobile AQA ✅ **5/5 PASSED**
+# Effective Mobile AQA **5/5 PASSED**
 
 **Автоматизация тестирования авторизации**  
 
