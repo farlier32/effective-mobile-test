@@ -9,23 +9,23 @@
 - **Allure отчетность**
 - **Python 3.10**
 
-## Локальный запуск
+Локальный запуск
 ```bash
 pip install -r requirements.txt
 playwright install chromium
 pytest tests/ --alluredir=allure-results -v -s
 allure serve allure-results/ # localhost:8080
+```
 
+ Docker + Allure
+```docker build -t saucedemo-aqa .
 
-## Docker + Allure
-docker build -t saucedemo-aqa .
-
-```bash
+## bash
 docker run --rm -v $(pwd)/allure-results:/app/allure-results saucedemo-aqa
-```PowerShell
+## PowerShell
 docker run --rm -v ${PWD}/allure-results:/app/allure-results saucedemo-aqa
 
 allure serve allure-results/
-
+```
 ![Allur Overview](overview.png)
 ![Allur Graphs](graphs.png)
