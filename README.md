@@ -21,7 +21,7 @@ allure serve allure-results/ # localhost:8080
  Docker
 ```docker build -t saucedemo-aqa .
 
-## bash
+## bash / Linux / macOS
 docker build -t saucedemo-aqa .
 docker run --rm -v $(pwd)/allure-results:/app/allure-results saucedemo-aqa
 allure serve allure-results/
