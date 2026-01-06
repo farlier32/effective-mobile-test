@@ -22,10 +22,13 @@ allure serve allure-results/ # localhost:8080
 ```docker build -t saucedemo-aqa .
 
 ## bash
+docker build -t saucedemo-aqa .
 docker run --rm -v $(pwd)/allure-results:/app/allure-results saucedemo-aqa
-## PowerShell
-docker run --rm -v ${PWD}/allure-results:/app/allure-results saucedemo-aqa
+allure serve allure-results/
 
+## Windows PowerShell
+docker build -t saucedemo-aqa .
+docker run --rm -v ${PWD}/allure-results:/app/allure-results saucedemo-aqa
 allure serve allure-results/
 ```
 ![Allur Overview](overview.png)
