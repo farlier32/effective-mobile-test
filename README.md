@@ -17,7 +17,7 @@ pytest tests/ --alluredir=allure-results -v -s
 allure serve allure-results/ # localhost:8080
 ```
 
- Docker + Allure
+ Docker
 ```docker build -t saucedemo-aqa .
 
 ## bash
