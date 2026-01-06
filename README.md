@@ -31,5 +31,5 @@ docker build -t saucedemo-aqa .
 docker run --rm -v ${PWD}/allure-results:/app/allure-results saucedemo-aqa
 allure serve allure-results/
 ```
-![Allur Overview](overview.png)
-![Allur Graphs](graphs.png)
+![Allur Overview](https://github.com/user-attachments/assets/bf17fa2c-1211-4317-8131-42072a5d98eb)
+![Allur Graphs](https://github.com/user-attachments/assets/891ff3bb-ff68-487b-bd33-762b724be491)
