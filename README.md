@@ -21,12 +21,12 @@ allure serve allure-results/ # localhost:8080
  Docker
 ```docker build -t saucedemo-aqa .
 
-## bash / Linux / macOS
+** bash / Linux / macOS **
 docker build -t emtest .
 docker run --rm -v $(pwd)/allure-results:/app/allure-results emtest
 allure serve allure-results/
 
-## Windows PowerShell
+** Windows PowerShell **
 docker build -t emtest .
 docker run --rm -v ${PWD}/allure-results:/app/allure-results emtest
 allure serve allure-results/
