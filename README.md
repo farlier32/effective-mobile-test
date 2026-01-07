@@ -10,7 +10,7 @@
 - **Python 3.10**
 - **Docker**
 
-Локальный запуск
+## Локальный запуск
 ```bash
 pip install -r requirements.txt
 playwright install chromium
@@ -18,7 +18,7 @@ pytest tests/ --alluredir=allure-results -v -s
 allure serve allure-results/ # localhost:8080
 ```
 
-  **Docker**
+## Docker
  
 **bash / Linux / macOS**
 ```
