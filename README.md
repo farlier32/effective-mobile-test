@@ -14,7 +14,7 @@
 ```bash
 pip install -r requirements.txt
 playwright install chromium
-pytest tests/ --alluredir=allure-results -v -s
+pytest tests/ --alluredir=allure-results -v -s -W ignore
 allure serve allure-results/ # localhost:8080
 ```
 
